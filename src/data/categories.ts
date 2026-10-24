@@ -1,0 +1,58 @@
+import { Category } from '../types';
+
+export const INITIAL_CATEGORIES: Category[] = [
+  {
+    id: 'puzzle',
+    name: 'Puzzle',
+    slug: 'puzzle',
+    icon: 'Puzzle',
+    description: 'Challenging logic riddles, tile-matching, and mind-bending brain teasers.',
+    color: 'from-fuchsia-500 to-purple-600',
+    accentBg: 'bg-purple-500/10 text-purple-400 border-purple-500/20',
+  },
+  {
+    id: 'action',
+    name: 'Action',
+    slug: 'action',
+    icon: 'Swords',
+    description: 'Fast-paced combat, intense reflex shooters, and stealth missions.',
+    color: 'from-rose-500 to-red-600',
+    accentBg: 'bg-red-500/10 text-red-400 border-red-500/20',
+  },
+  {
+    id: 'racing',
+    name: 'Racing',
+    slug: 'racing',
+    icon: 'Gauge',
+    description: 'High-speed drift circuits, neon highway chases, and supercar simulators.',
+    color: 'from-amber-500 to-orange-600',
+    accentBg: 'bg-orange-500/10 text-orange-400 border-orange-500/20',
+  },
+  {
+    id: 'arcade',
+    name: 'Arcade',
+    slug: 'arcade',
+    icon: 'Gamepad2',
+    description: 'Classic coin-op style thrills, endless runners, and high-score chases.',
+    color: 'from-cyan-500 to-blue-600',
+    accentBg: 'bg-cyan-500/10 text-cyan-400 border-cyan-500/20',
+  },
+  {
+    id: 'adventure',
+    name: 'Adventure',
+    slug: 'adventure',
+    icon: 'Compass',
+    description: 'Rich story campaigns, mystical dungeon crawls, and realm explorations.',
+    color: 'from-emerald-500 to-teal-600',
+    accentBg: 'bg-emerald-500/10 text-emerald-400 border-emerald-500/20',
+  },
+  {
+    id: 'brain-training',
+    name: 'Brain Training',
+    slug: 'brain-training',
+    icon: 'Brain',
+    description: 'Sharpen your working memory, mental math speed, and pattern recognition.',
+    color: 'from-violet-500 to-indigo-600',
+    accentBg: 'bg-indigo-500/10 text-indigo-400 border-indigo-500/20',
+  },
+];

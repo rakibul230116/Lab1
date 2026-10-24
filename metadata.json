@@ -1,0 +1,6 @@
+{
+  "name": "PlayHub",
+  "description": "PlayHub is a free online HTML5 gaming portal featuring instant-play arcade, puzzle, action, racing, and brain games with high scores and leaderboards.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
